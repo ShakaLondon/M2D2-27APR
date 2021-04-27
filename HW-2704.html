@@ -64,6 +64,11 @@ Could be the Amazon way, the Spotify or Apple music way or some other blog out t
          .albumDuration{
 
          }
+
+         .img-fluid{
+           max-width: 100%;
+           height: auto
+         }
          
     </style>
   </head>
@@ -76,22 +81,28 @@ Could be the Amazon way, the Spotify or Apple music way or some other blog out t
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-
-           <div class="container">
-
+<!-- welcome image -->
+           <div class="container-fluid">
+             <div 
+              class="bg-image" 
+              style="background-image: url('retro-record-player.jpeg');
+                  height: 100vh;
+                  min-width: 100vw;">
+<!-- navigation bar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Music Shop</a>
+                <!-- brand logo -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-              
+              <!-- navigation bar and options -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Favourite Albums</a>
+                      <a class="nav-link" href="#">Favourite Artists</a>
                     </li>
                  
                     <li class="nav-item dropdown">
@@ -108,8 +119,11 @@ Could be the Amazon way, the Spotify or Apple music way or some other blog out t
                    
                   </ul>
                 </div>
-            </div>
+            
             </nav>
+          </div>
+          </div>
+
 
         </br>
 
@@ -121,15 +135,84 @@ Could be the Amazon way, the Spotify or Apple music way or some other blog out t
             Implement a navigation bar using the bootstrap component
             This navigation bar must link every section in your page
         -->
-
+<!-- album rows -->
         <div class="container"> 
             <div class="row">
-                <div class="col-md-6" style="background:black; color: white;">
+                <div class="col-12" style="background:rgb(255, 255, 255); color: rgb(27, 231, 197);">
                     <div class="row">
-                        <div class="col-3 col-md-3 col-lg-3 col-xl-3 mb-auto">some text</div>
-                        <div class="col-3 col-md-3 col-lg-3 col-xl-3 mb-auto">some text</div>
-                        <div class="col-3 col-md-3 col-lg-3 col-xl-3 mb-auto">some text</div>
-                        <div class="col-3 col-md-3 col-lg-3 col-xl-3 mb-auto">some text</div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-auto text-center">
+                          <img src="album-default.png" class="img-fluid" alt="Cover Placeholder"/>
+                          </br>
+                          <div class="col-12">Album Name</div>
+                          <div class="col-12">Artist Name</div>
+                        </div>
+
                     </div>
                 </div>
         </div>
